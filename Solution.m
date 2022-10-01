@@ -53,3 +53,49 @@ while 1%for ll = 1:100
   pause(0.05)
   mylife = newlife;
 end
+
+_____________________________________________________________________
+%% PEER REVIEW
+
+% Code solution: output = 10/10
+
+% All codes run smoothly, and every line contributes to the output of the game.
+% Very beautiful visuals.
+
+% Code solution: context = 6/10
+
+% Majority of the lines does not consists of comments.
+% Some comments are very vague (e.g. mylife = [0 0 0 0 0;0 0 0 0 0;0 1 1 1 0;0 0 0 0 0;0 0 0 0 0];) maybe requires further explanation
+
+% Code solution: figures = 9/10
+
+% Very unique labelling. Perhaps if the labels can mean something, it is more understandable in a glance.
+% e.g.: instead of labeling as sj, you can label it sizej probably
+
+% Creativity = 3/5
+
+% Consistent use of 'for' loop
+% But ability to add elements such as: 
+%  newlife = mylife;
+%  for ii = 1:size_of_game
+%    si = ii-1;
+%    ei = ii+1;
+%    veci = si:ei;
+%    veci(veci==0)=size_of_game;
+%    veci(veci==size_of_game+1)=1;
+% This is a unique element
+
+% Code styling = 2/5
+
+% Repetitive use of 'for' loops
+
+% Ability to follow instructions = 3/5
+
+% The instruction requests for codes that does not include too much 'for' loops however this one is using 'for' loops in two sections of the codes. However, good use in sprand()
+
+% Use of GitHub = 3/5
+
+% Only uses upload feature and edited once.
+% However, useful screenshots of the game is shown, which is useful to see.
+
+% TOTAL MARKS: 36/50
